@@ -33,6 +33,14 @@ module.exports = {
           {
             text: 'Typescript',
             link: '/coding/typescript/README.md'
+          },
+          {
+            text: 'Raspberry pi pico',
+            link: '/coding/raspberry-pi-pico/README.md'
+          },
+          {
+            text: 'Python',
+            link: '/coding/python/README.md'
           }
         ]
       },
@@ -64,6 +72,8 @@ module.exports = {
       '/coding/regex/': ['/coding/regex/README.md'],
       '/coding/nodejs/': ['/coding/nodejs/README.md'],
       '/coding/typescript/': ['/coding/typescript/README.md'],
+      '/coding/raspberry-pi-pico/': ['/coding/raspberry-pi-pico/README.md'],
+      '/coding/python/': ['/coding/python/README.md'],
     },
   }),
 }

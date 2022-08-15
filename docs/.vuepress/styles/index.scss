@@ -1,6 +1,6 @@
 :root {
-    --c-brand: #f93e54;
-    --c-brand-light: #fd5266;
+    --c-brand: #fd5266;
+    --c-brand-light: #ff6577;
     --c-bg: #ffffff;
     --c-bg-light: #f3f4f5;
     --c-bg-lighter: #eeeeee;
@@ -52,8 +52,8 @@
 }
 
 html.dark {
-    --c-brand: #f93e54;
-    --c-brand-light: #fd5266;
+    --c-brand: #fd5266;
+    --c-brand-light: #ff6577;
     --c-bg: #22272e;
     --c-bg-light: #2b313a;
     --c-bg-lighter: #262c34;
@@ -100,5 +100,29 @@ html.dark {
 .hero>img, .logo {
     border: 1px solid transparent;
     border-radius: 50%;
+}
+
+// .hero{
+//     border: 4px solid var(--c-brand);
+//     border-radius: 128px;
+//     background: rgba(221, 221, 221, 0.3);
+//     margin-top: 2rem;
+//     padding: 2rem;
+// }
+
+// html.dark .hero{
+//     background: rgba(221, 221, 221, 0.1);
+// }
+
+.link-icon{
+    cursor:pointer;
+}
+
+#svg-icon{
+    height: 1.8rem;
+}
+
+.svg-social-color{
+    fill: var(--c-text);
 }
 
