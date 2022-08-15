@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-243f7cf5","path":"/coding/typescript/06.html","title":"tsc config include - exclude","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1660565644000,"contributors":[{"name":"simone","email":"sdiricco.91@gmail.com","commits":1}]},"filePathRelative":"coding/typescript/06.md"}');export{e as data};

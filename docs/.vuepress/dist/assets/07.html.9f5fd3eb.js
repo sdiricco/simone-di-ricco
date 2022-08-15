@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-25f45594","path":"/coding/typescript/07.html","title":"type annotation - variabili","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1660565644000,"contributors":[{"name":"simone","email":"sdiricco.91@gmail.com","commits":1}]},"filePathRelative":"coding/typescript/07.md"}');export{t as data};

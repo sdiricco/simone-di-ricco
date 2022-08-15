@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-228aa456","path":"/coding/typescript/05.html","title":"tsc config","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1660565644000,"contributors":[{"name":"simone","email":"sdiricco.91@gmail.com","commits":1}]},"filePathRelative":"coding/typescript/05.md"}');export{t as data};

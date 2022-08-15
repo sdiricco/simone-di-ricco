@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-295e06d2","path":"/coding/typescript/09.html","title":"type annotation - object inline","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1660565644000,"contributors":[{"name":"simone","email":"sdiricco.91@gmail.com","commits":1}]},"filePathRelative":"coding/typescript/09.md"}');export{t as data};

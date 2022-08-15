@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-1d6c1a79","path":"/coding/typescript/02.html","title":"Installazione di Typescript","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1660565644000,"contributors":[{"name":"simone","email":"sdiricco.91@gmail.com","commits":1}]},"filePathRelative":"coding/typescript/02.md"}');export{t as data};

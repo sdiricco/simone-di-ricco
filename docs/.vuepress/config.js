@@ -1,13 +1,8 @@
 const { defaultTheme } = require('vuepress')
-const { nprogressPlugin } = require('@vuepress/plugin-nprogress')
-
 module.exports = {
   lang: 'en-US',
   title: 'Ciao!',
   description: 'Qui trovi i miei appunti di informatica',
-  plugins: [
-    nprogressPlugin(),
-  ],
   theme: defaultTheme({
     logo: '/images/hero.png',
     navbar: [

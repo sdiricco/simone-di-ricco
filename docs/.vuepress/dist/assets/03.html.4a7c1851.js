@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-4664d95e","path":"/coding/nodejs/03.html","title":"Moduli interni","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1660565644000,"contributors":[{"name":"simone","email":"sdiricco.91@gmail.com","commits":1}]},"filePathRelative":"coding/nodejs/03.md"}');export{e as data};
