@@ -12,54 +12,53 @@ Una volta installato verifica che la toolchain, il compilatore e il package mana
 - **rustc**: Rust compiler
 - **cargo**: package manager
 
-=== ":octicons-terminal-16: rustup"
-
-    ```javascript
-    rustup --version
-    ```
-
-=== ":octicons-terminal-16: rustc"
-
-    ```javascript
-    rustc --version
-    ```
-
-=== ":octicons-terminal-16: cargo"
-
-    ```javascript
-    cargo --version
-    ```
-
+:::: code-group
+::: code-group-item rustup
+```sh
+rustup --version
+```
+:::
+::: code-group-item rustc
+```sh
+rustc --version
+```
+:::
+::: code-group-item cargo
+```sh
+cargo --version
+```
+:::
+::::
 
 ## Hello Rust!
 
 Stampa il tuo primo **Hello World** con Rust.
 
-=== ":fontawesome-brands-rust: main.rs"
 
-    ```rs
-    fn main(){
-        println!("Hello World!")
-    }
-    ```
-
-=== ":octicons-terminal-16: compila"
-
-    ```sh
-    rustc ./main.rs
-    ```
-
-=== ":octicons-terminal-16: esegui"
-
-    ```sh
-    ./main
-    ```
-
-=== ":octicons-terminal-16: output"
-
-    ```sh
-    Hello World
-    ```
+:::: code-group
+::: code-group-item main.rs
+```rs
+fn main(){
+    println!("Hello World!")
+}
+```
+:::
+::: code-group-item compila
+```sh
+rustc ./main.rs
+```
+:::
+::: code-group-item esegui
+```sh
+./main
+```
+:::
+::: code-group-item output
+```sh
+Hello World
+```
+:::
+::::
 
 ## Inizializza un progetto con cargo
 
