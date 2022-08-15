@@ -18,6 +18,12 @@ actions:
   - text: Rust
     link: /coding/rust/
     type: primary
+  - text: Node.js
+    link: /coding/nodejs/
+    type: primary
+  - text: Typescript
+    link: /coding/typescript/
+    type: primary
 
 features:
   - title: Chi sono

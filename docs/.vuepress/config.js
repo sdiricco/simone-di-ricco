@@ -25,6 +25,14 @@ module.exports = {
           {
             text: 'RegEx',
             link: '/coding/regex/README.md'
+          },
+          {
+            text: 'Node.js',
+            link: '/coding/nodejs/README.md'
+          },
+          {
+            text: 'Typescript',
+            link: '/coding/typescript/README.md'
           }
         ]
       },
@@ -53,6 +61,9 @@ module.exports = {
       '/coding/rust/': ['/coding/rust/README.md'],
       '/coding/cpp/': ['/coding/cpp/README.md'],
       '/coding/regex/': ['/coding/regex/README.md'],
+      '/coding/regex/': ['/coding/regex/README.md'],
+      '/coding/nodejs/': ['/coding/nodejs/README.md'],
+      '/coding/typescript/': ['/coding/typescript/README.md'],
     },
   }),
 }
