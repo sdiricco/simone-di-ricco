@@ -35,6 +35,6 @@ features:
 
 
 
-footer: Simone Di Ricco
+footer: Simone Di Ricco 2022
 ---
 
