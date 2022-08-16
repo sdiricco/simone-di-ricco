@@ -32,6 +32,9 @@ actions:
   - text: Python
     link: /coding/python/
     type: primary
+  - text: Git
+    link: /coding/git/
+    type: primary
 
 features:
   - title: Chi sono

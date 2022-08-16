@@ -41,6 +41,10 @@ module.exports = {
           {
             text: 'Python',
             link: '/coding/python/README.md'
+          },
+          {
+            text: 'Git',
+            link: '/coding/git/README.md'
           }
         ]
       },
@@ -74,6 +78,7 @@ module.exports = {
       '/coding/typescript/': ['/coding/typescript/README.md'],
       '/coding/raspberry-pi-pico/': ['/coding/raspberry-pi-pico/README.md'],
       '/coding/python/': ['/coding/python/README.md'],
+      '/coding/git/': ['/coding/git/README.md'],
     },
   }),
 }
