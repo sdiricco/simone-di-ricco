@@ -1,11 +1,17 @@
 import { defineUserConfig } from 'vuepress'
 import { localTheme } from './theme'
 import type { DefaultThemeOptions } from '@vuepress/theme-default'
+// import { docsearchPlugin } from '@vuepress/plugin-docsearch'
+import { searchPlugin } from '@vuepress/plugin-search'
 
 export const themeOptions: DefaultThemeOptions = {
-  lastUpdated: false,
-  contributors: false,
+  lastUpdated: true,
+  contributors: true,
   logo: '/images/hero.png',
+  repo: 'sdiricco/simone-di-ricco',
+  editLinkText: 'Edit this page on GitHub',
+  docsDir: 'docs',
+  contributorsText: 'Author',
   navbar: [
     // NavbarGroup
     {
@@ -86,5 +92,10 @@ export default defineUserConfig({
   lang: 'en-US',
   title: 'Ciao!',
   description: 'Qui trovi i miei appunti di informatica',
+  plugins: [
+    searchPlugin({
+      // options
+    }),
+  ],
   theme: localTheme(themeOptions),
 })
