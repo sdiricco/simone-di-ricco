@@ -1,7 +1,5 @@
 :root {
-    scroll-behavior: smooth;
-
-
+    scroll-behavior: smooth !important;
     --c-brand: #fd5266;
     --c-brand-light: #ff6577;
     --c-bg: #ffffff;
@@ -80,17 +78,17 @@ html.dark {
 }
 
 //SCROLLBAR
-::-webkit-scrollbar {
-    width: 8px;
-    height: 8px;
-}
-::-webkit-scrollbar-track {
-    background: transparent;
-}
-::-webkit-scrollbar-thumb {
-    background: #3e4c5a;
-    border: 1px solid transparent;
-}
+// ::-webkit-scrollbar {
+//     width: 8px;
+//     height: 8px;
+// }
+// ::-webkit-scrollbar-track {
+//     background: transparent;
+// }
+// ::-webkit-scrollbar-thumb {
+//     background: #3e4c5a;
+//     border: 1px solid transparent;
+// }
 
 //
 .sidebar::-webkit-scrollbar{
@@ -101,6 +99,20 @@ html.dark {
 }
 .sidebar::-webkit-scrollbar-thumb {
     background: var(--c-border);
+}
+
+//
+.theme-default-content pre::-webkit-scrollbar{
+    height: 8px;
+}
+.theme-default-content pre::-webkit-scrollbar-track {
+    background: transparent;
+    margin: 0px 0px 0px 1px;
+
+}
+.theme-default-content pre::-webkit-scrollbar-thumb {
+    background: #3e4c5a !important;
+    border-radius: 0px 4px 4px 0px;
 }
 
 .sidebar{
