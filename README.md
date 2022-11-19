@@ -17,7 +17,5 @@ yarn dev
 ## Deploy with heroku
 
 ```sh
-git add .
-git commit -m "deploy"
-git push heroku master
+yarn deploy
 ```

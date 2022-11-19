@@ -1,6 +1,7 @@
 :root {
-    --c-brand: #f93e54;
-    --c-brand-light: #fd5266;
+    scroll-behavior: smooth !important;
+    --c-brand: #fd5266;
+    --c-brand-light: #ff6577;
     --c-bg: #ffffff;
     --c-bg-light: #f3f4f5;
     --c-bg-lighter: #eeeeee;
@@ -52,8 +53,8 @@
 }
 
 html.dark {
-    --c-brand: #f93e54;
-    --c-brand-light: #fd5266;
+    --c-brand: #fd5266;
+    --c-brand-light: #ff6577;
     --c-bg: #22272e;
     --c-bg-light: #2b313a;
     --c-bg-lighter: #262c34;
@@ -76,26 +77,48 @@ html.dark {
     --code-hl-bg-color: #363b46;
 }
 
+//SCROLLBAR
+// ::-webkit-scrollbar {
+//     width: 8px;
+//     height: 8px;
+// }
+// ::-webkit-scrollbar-track {
+//     background: transparent;
+// }
+// ::-webkit-scrollbar-thumb {
+//     background: #3e4c5a;
+//     border: 1px solid transparent;
+// }
 
-::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
+//
+.sidebar::-webkit-scrollbar{
+    width: 4px;
 }
-
-/* Track */
-::-webkit-scrollbar-track {
+.sidebar::-webkit-scrollbar-track {
     background: transparent;
-
+}
+.sidebar::-webkit-scrollbar-thumb {
+    background: var(--c-border);
 }
 
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #888;
-    // border-radius: 4px;
-
-    border: 1px solid transparent;
+//
+.theme-default-content pre::-webkit-scrollbar{
+    height: 8px;
+}
+.theme-default-content pre::-webkit-scrollbar-track {
+    background: transparent;
+    margin: 0px 0px 0px 1px;
 
 }
+.theme-default-content pre::-webkit-scrollbar-thumb {
+    background: #3e4c5a !important;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.sidebar{
+    border-right: none;
+}
+
 
 .hero>img, .logo {
     border: 1px solid transparent;

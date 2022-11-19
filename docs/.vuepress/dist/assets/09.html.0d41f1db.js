@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-50a1ed18","path":"/coding/nodejs/09.html","title":"Event loop","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1660565644000,"contributors":[{"name":"simone","email":"sdiricco.91@gmail.com","commits":1}]},"filePathRelative":"coding/nodejs/09.md"}');export{e as data};

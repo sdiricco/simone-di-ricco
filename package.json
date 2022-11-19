@@ -5,9 +5,17 @@
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "fa:build": "node node_modules/vuepress-plugin-font-awesome/index.js --dest docs",
+    "deploy": "yarn build && git add . && git commit -m 'deploy' && git push heroku main"
   },
   "devDependencies": {
+    "@vuepress/plugin-docsearch": "^2.0.0-beta.49",
+    "@vuepress/plugin-register-components": "^2.0.0-beta.49",
+    "@vuepress/plugin-search": "^2.0.0-beta.49",
     "vuepress": "^2.0.0-beta.49"
+  },
+  "dependencies": {
+    "vuepress-plugin-font-awesome": "^1.90.6"
   }
 }

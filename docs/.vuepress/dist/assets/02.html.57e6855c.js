@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-44b000bf","path":"/coding/nodejs/02.html","title":"Globals","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1660565644000,"contributors":[{"name":"simone","email":"sdiricco.91@gmail.com","commits":1}]},"filePathRelative":"coding/nodejs/02.md"}');export{e as data};
