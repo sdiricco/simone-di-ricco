@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-59c2ec42","path":"/coding/arduino/07.html","title":"Fade","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{},"filePathRelative":"coding/arduino/07.md"}');export{e as data};

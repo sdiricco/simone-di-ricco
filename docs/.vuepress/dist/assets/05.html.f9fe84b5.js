@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-60964ebe","path":"/coding/arduino/05.html","title":"Primo sketch","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{},"filePathRelative":"coding/arduino/05.md"}');export{e as data};
