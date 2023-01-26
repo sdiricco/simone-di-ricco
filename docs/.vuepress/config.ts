@@ -52,6 +52,10 @@ export const themeOptions: DefaultThemeOptions = {
         {
           text: 'Git',
           link: '/coding/git/README.md'
+        },
+        {
+          text: 'Ux',
+          link: '/coding/ux/README.md'
         }
       ]
     },
@@ -85,6 +89,7 @@ export const themeOptions: DefaultThemeOptions = {
     '/coding/raspberry-pi-pico/': ['/coding/raspberry-pi-pico/README.md'],
     '/coding/python/': ['/coding/python/README.md'],
     '/coding/git/': ['/coding/git/README.md'],
+    '/coding/ux/': ['/coding/ux/README.md'],
   },
 }
 

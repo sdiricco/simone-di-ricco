@@ -1,5 +1,7 @@
 # UX design - Fondamentals
 
+![](./images/ux-design.jpg)
+
 ## Ux Thinking
 
 ### Cos'è la User Experience?
@@ -26,6 +28,8 @@ best **meet business goals and user needs**.
 - User Research Specialist
 
 ## Ux tools
+
+![](./images/ux-tools-2.png)
 
 - User Research
 - User Personas
