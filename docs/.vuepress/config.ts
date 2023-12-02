@@ -54,6 +54,10 @@ export const themeOptions: DefaultThemeOptions = {
           link: '/coding/git/README.md'
         },
         {
+          text: 'Ux crash course',
+          link: '/coding/ux-crash-course/README.md'
+        },
+        {
           text: 'Ux',
           link: '/coding/ux/README.md'
         }
@@ -90,6 +94,28 @@ export const themeOptions: DefaultThemeOptions = {
     '/coding/python/': ['/coding/python/README.md'],
     '/coding/git/': ['/coding/git/README.md'],
     '/coding/ux/': ['/coding/ux/README.md'],
+    '/coding/ux-crash-course/': [
+      {
+        text: 'Ux crash course',
+        children: [
+          'README.md',
+          '00-index.md',
+          '01-introduzione.md',
+          '02-scenario.md',
+          '03-approcciarsi-al-design-della-user-experience.md',
+          '04-strumenti-per-la-ux.md',
+          '05-ux-il-processo-di-design.md',
+          '06-ux-preparare-il-lavoro.md',
+          '07-ux-content-first.md',
+          '08-information-architecture.md',
+          '09-sitemap-flowchart-layout.md',
+          '10-creare-i-wireframes.md',
+          '11-ux-style-tiles-dalla-ux-alla-ui.md',
+          '12-introduzione-allo-ui-design.md',
+          '13-ui-gli-strumenti.md'
+        ]
+      }
+    ]
   },
 }
 

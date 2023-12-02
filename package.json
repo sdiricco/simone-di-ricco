@@ -16,5 +16,6 @@
   },
   "dependencies": {
     "vuepress-plugin-font-awesome": "^1.90.6"
-  }
+  },
+  "packageManager": "yarn@4.0.2"
 }
