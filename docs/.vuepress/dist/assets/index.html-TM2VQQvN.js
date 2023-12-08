@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-4e1802e0","path":"/coding/ux-crash-course/","title":"UX - Intro","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1701532453000,"contributors":[{"name":"Simone","email":"sdiricco@gmail.com","commits":1}]},"filePathRelative":"coding/ux-crash-course/README.md"}');export{e as data};
