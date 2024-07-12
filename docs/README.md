@@ -5,6 +5,8 @@ home: true
 heroImage: /images/hero.png
 
 actions:
+  - text: Frontend
+    link: /conding/frontend
   - text: RegEx
     link: /coding/regex/
     type: primary
